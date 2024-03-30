@@ -1,0 +1,35 @@
+@page
+@model IndexBorrowingModel
+
+<h2>Borrowing List</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Book Title</th>
+            <th>Author</th>
+            <th>Reader</th>
+            <th>Borrowed Date</th>
+            <th>Returned Date</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var borrowing in Model.Borrowings)
+        {
+        <tr>
+            <td>@borrowing.Title</td>
+            <td>@borrowing.Author</td>
+            <td>@borrowing.NameReader</td>
+            <td>@borrowing.BorrowedDate.ToShortDateString()</td>
+            <td>@borrowing.ReturnedDate?.ToShortDateString()</td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@borrowing.IDBorrowing">Edit</a> |
+                <a asp-page="./Delete" asp-route-id="@borrowing.IDBorrowing">Delete</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-page="./Create">Create New Borrowing</a>

@@ -1,0 +1,58 @@
+/* Reset some basic elements */
+body, h1, h2, h3, p, a {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Basic styling for the header */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 1rem 0;
+}
+
+    header a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.2rem;
+    }
+
+/* Container for the navigation and content */
+.container {
+    width: 85%;
+    margin: auto;
+    overflow: auto;
+}
+
+/* Navigation styling */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+    nav ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+
+/* Main content area */
+main {
+    margin: 2rem 0;
+}
+
+/* Footer styling */
+footer {
+    background-color: #f8f9fa;
+    color: #333;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+    /* Add some space between footer content */
+    footer div {
+        margin: 10px 0;
+    }

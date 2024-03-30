@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - Library Management System</title>
+    <link rel="stylesheet" href="~/css/site.css">
+</head>
+
+<body>
+    <header style="background-color: #f8f9fa; padding: 1rem;">
+        <div style="max-width: 60rem; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;">
+            <a href="/" style="text-decoration: none; color: #333; font-size: 1.5rem;">LMS</a>
+            <nav>
+                <ul style="list-style: none; padding: 0; display: flex; gap: 1rem;">
+                    <li><a href="/Book/Index" style="text-decoration: none; color: #333;">Books</a></li>
+                    <li><a href="/Borrowing/Index" style="text-decoration: none; color: #333;">Borrowings</a></li>
+                    <li><a href="/Readers/Index" style="text-decoration: none; color: #333;">Readers</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main style="max-width: 60rem; margin: 2rem auto;">
+        @RenderBody()
+    </main>
+
+    <footer style="background-color: #f8f9fa; padding: 1rem; text-align: center;">
+        <div>&copy; @(DateTime.Now.Year) - Library Management System</div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Diana Paola\\Documents\\Bow Valley Software Development\\Term 2 202401\\Web-ASP-NET\\LMS_project_3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{86228354-E018-4173-B7DD-96FFFF797E03}|LMS_project_3\\LMS_project_3.csproj|c:\\users\\diana paola\\documents\\bow valley software development\\term 2 202401\\web-asp-net\\lms_project_3\\lms_project_3\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86228354-E018-4173-B7DD-96FFFF797E03}|LMS_project_3\\LMS_project_3.csproj|solutionrelative:lms_project_3\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 485,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\Diana Paola\\Documents\\Bow Valley Software Development\\Term 2 202401\\Web-ASP-NET\\LMS_project_3\\LMS_project_3\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "LMS_project_3\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\Diana Paola\\Documents\\Bow Valley Software Development\\Term 2 202401\\Web-ASP-NET\\LMS_project_3\\LMS_project_3\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "LMS_project_3\\Controllers\\BooksController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T05:24:23.705Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

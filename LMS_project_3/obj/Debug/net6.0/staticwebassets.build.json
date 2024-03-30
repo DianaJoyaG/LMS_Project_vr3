@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "am+v5kXtPIcUinqY+vLiFrng9NjwkD0LHW5a23YnWow=",
+  "Source": "LMS_project_3",
+  "BasePath": "_content/LMS_project_3",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "LMS_project_3\\wwwroot",
+      "Source": "LMS_project_3",
+      "ContentRoot": "C:\\Users\\Diana Paola\\Documents\\Bow Valley Software Development\\Term 2 202401\\Web-ASP-NET\\LMS_project_3\\LMS_project_3\\wwwroot\\",
+      "BasePath": "_content/LMS_project_3",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Diana Paola\\Documents\\Bow Valley Software Development\\Term 2 202401\\Web-ASP-NET\\LMS_project_3\\LMS_project_3\\wwwroot\\css\\site.css",
+      "SourceId": "LMS_project_3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Diana Paola\\Documents\\Bow Valley Software Development\\Term 2 202401\\Web-ASP-NET\\LMS_project_3\\LMS_project_3\\wwwroot\\",
+      "BasePath": "_content/LMS_project_3",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    }
+  ]
+}
